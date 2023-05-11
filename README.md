@@ -1,22 +1,26 @@
-# api_final
-api final
+# api final
+## API для проекта Yatube 
+### Возможности
+- Получение, создание, обновление и удаления публикаций
+- Получение, создание, обновление и удаления комментариев
+- Получение информации о сообществах
+- Получение и создание подписок
+- Получение, создание и обновление JWT-токена
 
-Как запустить проект:
-Клонировать репозиторий и перейти в него в командной строке:
+### Технологии
+- Python 3.9
+- Django==3.2.16
+- djangorestframework==3.12.4
 
-git clone https://github.com/Vkalypal/api_final_yatube.git
-cd kittygram
-Cоздать и активировать виртуальное окружение:
-
-python3 -m venv env
-source env/bin/activate
-Установить зависимости из файла requirements.txt:
-
-python3 -m pip install --upgrade pip
+### Запуск проекта в dev-режиме
+- Установите и активируйте виртуальное окружение
+- Установите зависимости из файла requirements.txt
+```
 pip install -r requirements.txt
-Выполнить миграции:
-
-python3 manage.py migrate
-Запустить проект:
-
+``` 
+- В папке с файлом manage.py выполните команду:
+```
 python3 manage.py runserver
+```
+### Авторы
+Лётыч Никита
